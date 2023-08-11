@@ -2,4 +2,6 @@
 
 Fork of [tomasr/molokai](https://github.com/devoc09/molokai)
 
-This is disabled italic font face
+## Feature
+- Disable italic font.
+- Support nvim-treesitter
