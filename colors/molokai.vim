@@ -231,6 +231,15 @@ if &t_Co > 255
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
+   " treesitter
+   if has('nvim-0.8')
+      hi @variable    ctermfg=231
+      hi @punctuation ctermfg=231
+      hi @parameter   ctermfg=231
+      hi @include     ctermfg=161 cterm=bold
+      hi @property    ctermfg=231
+      hi @field       ctermfg=231
+    endif
 
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
