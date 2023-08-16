@@ -239,7 +239,7 @@ if &t_Co > 255
       hi @include     ctermfg=161 cterm=bold
       hi @property    ctermfg=231
       hi @field       ctermfg=231
-    endif
+   endif
 
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
